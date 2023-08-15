@@ -51,8 +51,12 @@ body{
   display: flex;
 }
 /*  */
+a{
+  width: 100%;
+}
 .active,
-.line span.active{
+.line span.active
+,li.active{
   border-radius: var(--border-rad7);
   background-color: var(--gray-color);
   transition: var(--main-transition);

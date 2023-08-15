@@ -18,3 +18,8 @@ document.querySelector(".close").addEventListener("click", () => {
     asideP.style.left = "0px";
     }
 })
+
+///
+document.querySelector("section .box .img").onclick = () => {
+  location.href = "elzero.html";
+}
