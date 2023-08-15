@@ -42,7 +42,7 @@ a{
 body{
   font-family: Tahoma;
   color: #fff;
-  background-color: var(--page-color);
+  background-color: #000;
   margin: 0;
   padding: 0;
 }
@@ -317,6 +317,8 @@ section .box .info .icon img{
 .phone{
   position: relative;
   left: -200px;
+  overflow: scroll;
+  height: 100%;
 }
 .bar{
   position: sticky;
