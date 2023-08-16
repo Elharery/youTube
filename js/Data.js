@@ -1,11 +1,10 @@
-let elzeroVid = document.querySelector("section .box .elzero")
-let nextApiRoute = document.querySelector("section .box .next-js-apiroute")
-
+let elzeroVid = document.querySelector("section .box .elzero");
+let nextApiRoute = document.querySelector("section .box .next-js-apiroute");
 
 elzeroVid.addEventListener("click", () => {
-  location.href = "../pages-html/elzero.html";
-})
-nextApiRoute.addEventListener("click",() => {
-  location.href = "../pages-html/next-jsApi.html";
-})
+  location.href = "elzero.html";
+});
+nextApiRoute.addEventListener("click", () => {
+  location.href = "next-jsApi.html";
+});
 //
