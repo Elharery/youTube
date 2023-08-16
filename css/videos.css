@@ -1,7 +1,30 @@
-section{
-  display: block;
-position: absolute;
-top: 50%;
-left: 50%;
-translate: -50% -50%;
+section.videos{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+video{
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.video{
+  /* display: block; */
+  margin: 0 auto;
+  width: 300px;
+}
+section h3.title-vid{
+  padding: 30px 0 20px;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 12px;
+}
+@media (max-width: 767px){
+  video{
+    width: 300px;
+  }
 }

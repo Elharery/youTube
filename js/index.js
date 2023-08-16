@@ -20,6 +20,3 @@ document.querySelector(".close").addEventListener("click", () => {
 })
 
 ///
-document.querySelector("section .box .img").onclick = () => {
-  location.href = "elzero.html";
-}

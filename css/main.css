@@ -119,6 +119,9 @@ aside ul li:hover,
   border-radius: var(--border-rad7);
   background-color: var(--gray-color);
 }
+aside ul li i{
+  padding-left: 5px;
+}
 aside ul li img{
   max-width: 20px;
   border-radius: var(--border-rad50);
@@ -238,7 +241,7 @@ header .icons .notifiction::before{
   -o-border-radius: var(--border-rad7);
 }
 /* section */
-section{
+section.home{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
